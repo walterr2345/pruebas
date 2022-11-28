@@ -15,7 +15,7 @@ export const tasks = sequelize.define('tasks', {
     }
 })
 
-tasks.belongsTo(project, {
-    foreignKey: 'projectId',
-    targetId: 'id'
-})
+// tasks.belongsTo(project, {
+//     foreignKey: 'projectId',
+//     targetId: 'id'
+// })
